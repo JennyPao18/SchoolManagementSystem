@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class GestorAcademico {
+public class GestorAcademico{
     //Declaración de ArrayList's y Hashmap
     private ArrayList<Estudiante> listaEstudiantes;
     private ArrayList<Curso> listaCursos;
@@ -13,4 +13,12 @@ public class GestorAcademico {
         this.listaCursos = listaCursos;
         this.estudiantesPorCurso = estudiantesPorCurso;
     }
+
+    //Constructor vacío
+    public GestorAcademico() {
+        this.listaEstudiantes = new ArrayList<>();
+        this.listaCursos = new ArrayList<>();
+        this.estudiantesPorCurso = new HashMap<>();
+    }
+
 }

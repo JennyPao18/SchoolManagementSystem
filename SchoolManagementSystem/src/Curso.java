@@ -1,10 +1,10 @@
 public class Curso {
     //Variables de la clase
-    int id;
-    String nombre;
-    String descripcion;
-    int noCreditos;
-    String version;
+    public int id;
+    public String nombre;
+    public String descripcion;
+    public int noCreditos;
+    public String version;
 
     //Constructor con parámetros
     public Curso(int id, String nombre, String descripcion, int noCreditos, String version) {
@@ -15,7 +15,7 @@ public class Curso {
         this.version = version;
     }
 
-    //Getter's y Setter's
+    //Getter's y Setter's de Id
     public int getId() {
         return id;
     }
@@ -24,6 +24,7 @@ public class Curso {
         this.id = id;
     }
 
+    //Getter's y Setter's de Nombre
     public String getNombre() {
         return nombre;
     }
@@ -32,6 +33,7 @@ public class Curso {
         this.nombre = nombre;
     }
 
+    //Getter's y Setter's de Descripción
     public String getDescripcion() {
         return descripcion;
     }
@@ -40,6 +42,7 @@ public class Curso {
         this.descripcion = descripcion;
     }
 
+    //Getter's y Setter's de Créditos
     public int getNoCreditos() {
         return noCreditos;
     }
@@ -48,6 +51,7 @@ public class Curso {
         this.noCreditos = noCreditos;
     }
 
+    //Getter's y Setter's de Versión
     public String getVersion() {
         return version;
     }

@@ -1,10 +1,10 @@
-public class Estudiante {
+public class Estudiante{
     //Variables de la clase
-    int id;
-    String nombre;
-    String apellido;
-    String fechaNacimiento;
-    String estado;
+    public int id;
+    public String nombre;
+    public String apellido;
+    public String fechaNacimiento;
+    public String estado;
 
     //Constructor con parámetros
     public Estudiante(int id, String nombre, String apellido, String fechaNacimiento, String estado) {
@@ -15,7 +15,7 @@ public class Estudiante {
         this.estado = estado;
     }
 
-    //Getter's y Setter's
+    //Getter's y Setter's de Id
     public int getId() {
         return id;
     }
@@ -24,6 +24,7 @@ public class Estudiante {
         this.id = id;
     }
 
+    //Getter's y Setter's de Nombre
     public String getNombre() {
         return nombre;
     }
@@ -32,6 +33,7 @@ public class Estudiante {
         this.nombre = nombre;
     }
 
+    //Getter's y Setter's de Apellido
     public String getApellido() {
         return apellido;
     }
@@ -40,6 +42,7 @@ public class Estudiante {
         this.apellido = apellido;
     }
 
+    //Getter's y Setter's de Fecha de Nacimiento
     public String getFechaNacimiento() {
         return fechaNacimiento;
     }
@@ -48,6 +51,8 @@ public class Estudiante {
         this.fechaNacimiento = fechaNacimiento;
     }
 
+
+    //Getter's y Setter's de Estado
     public String getEstado() {
         return estado;
     }
